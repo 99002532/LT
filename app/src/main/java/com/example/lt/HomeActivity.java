@@ -14,5 +14,6 @@ public class HomeActivity extends AppCompatActivity {
         String data = getIntent().getExtras().getString("mykey");
         TextView greetingTextView =  findViewById(R.id.textView_greeting);
         greetingTextView.setText(data);
+
     }
 }
